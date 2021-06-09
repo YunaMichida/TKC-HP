@@ -57,8 +57,22 @@ nav li a {
 -----------------------------------*/
 .company-inner{
     background-color: #ebe9e9;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    padding: 9vw 8vw;
+}
+   
+}
+.company-text-inner {
+    text-align: center;
+    margin: 9vw auto;
 }
 
+.company-img {
+    width: 400px;
+    height: 450px;
+}
 /*モバイル版
 ーーーーーーーーーーーーーーーーーーーーー*/
 @media (max-width:　600px) {
