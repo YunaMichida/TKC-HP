@@ -8,9 +8,35 @@ html {
 a {
     text-decoration: none;
 }
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+  }
+.secton {
+padding: 90px 0;
+}
 .section:nth-of-type(odd) {
     background-color: #ebe9e9;
   }
+  .btn {
+    background-color: #ffe556;/*背景色*/
+-webkit-transition: all 0.3s ease;/*ふわっとさせる間隔 Google Chrome、Safari*/
+-moz-transition: all 0.3s ease;/*ふわっとさせる間隔 Firefox*/
+-ms-transition: all 0.3s ease;/*ふわっとさせる間隔 IE*/
+-o-transition: all 0.3s ease;/*ふわっとさせる間隔 Opera*/
+transition: all  0.3s ease;/*ふわっとさせる間隔*/
+padding:10px 0;/*文字と背景の余白*/
+width: 220px;/*ボタン幅*/
+color: #000;/*文字の色*/
+text-align: center;/*文字を揃える位置*/
+border-radius: 3px;/*背景の角丸半径*/
+cursor: pointer;/*ホバー時にカーソルの形状をポインターに*/
+  }
+  .btn:hover {
+    background-color :#948116;
+    color: #fff;
+    }
 /*  ヘッダー
 --------------------------*/
 .header-logo {
@@ -67,17 +93,20 @@ nav li a {
 }
    
 .company-text-inner {
+    height: auto;
     text-align: left;
     align-items: center;
     max-width: 50%;
+    
 }
 .company-text-inner p {
-    padding:0 20% 0 0;
+    padding:10% 20% 0 0;
+    max-width: 300px;
 }
 .company-title {
     font-size: 2.14286rem;
     line-height: 1.4;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
 }
 .textline {
     padding-left: 70px;
@@ -90,7 +119,7 @@ nav li a {
     height: 1px;
     background-color: #1a1a1a;
     position: absolute;
-    top: .95em;
+    top: 40px;
     left: 0;
 }
 .company-img-inner{
