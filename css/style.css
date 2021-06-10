@@ -69,12 +69,15 @@ nav li a {
 .company-text-inner {
     text-align: left;
     align-items: center;
-    width: 50%;
+    max-width: 50%;
+}
+.company-text-inner p {
+    padding:0 20% 0 0;
 }
 .company-title {
     font-size: 2.14286rem;
     line-height: 1.4;
-    margin-bottom: 15px;
+    margin-bottom: 10%;
 }
 .textline {
     padding-left: 70px;
@@ -91,7 +94,6 @@ nav li a {
     left: 0;
 }
 .company-img-inner{
-  
     padding: 2.8vw;
 }
 .company-img {
