@@ -57,11 +57,13 @@ cursor: pointer;/*ホバー時にカーソルの形状をポインターに*/
         flex-wrap: wrap;
         margin: 1.8vw;
     }
-    
     .l-container {
     max-width: 1800px;
     margin: 9vw auto;
     padding: 0 12vw;
+    }
+    .l-container._wide {
+        padding: 0 5vw;
     }
     .speace-lg {
         padding: 5.3vw;
@@ -160,6 +162,10 @@ nav li a {
     width: 420px;
     height: 400px;
 }
+._gap-sm {
+    padding: -7.vw;
+}
+
 /*お知らせ
 ーーーーーーーーーーーーーーーーーーーーー*/
 .news-inner {
@@ -191,6 +197,7 @@ nav li a {
 /*------------------------------------------
 ブログ
 ------------------------------------------*/
+
 .category-blog {
     font-size: 1.28571rem;
     line-height: 1.8;
@@ -205,6 +212,18 @@ nav li a {
     background-color: #1a1a1a;
     display: block;
     margin: 20px auto 0;
+}
+/*--------------------------------------------------
+施工事例記事テキスト
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーー-*/
+.blog-backcolor {
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+    height: 100%;
+}
+.work-text {
+    padding: 3px;
 }
 /*==================================================
 ブログスライダーのためのcss
@@ -254,7 +273,7 @@ nav li a {
  
  .slick-dots {
      text-align:center;
-     margin:20px 0 0 0;
+     margin:35px 0 0 0;
  }
  
  .slick-dots li {
